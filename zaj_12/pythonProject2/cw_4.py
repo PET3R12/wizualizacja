@@ -15,7 +15,9 @@ glue_df = sns.catplot(
     kind='violin',
     x='Year',
     y='Score',
-
+    hue='Encoder',
+    col = 'Model',
+    palette='Set2'
 )
 #set labels
 glue_df.set_axis_labels('Tasks', 'Scores')
