@@ -1,0 +1,5 @@
+f = open('tekst1.txt', 'r+', encoding='UTF-8')
+s= f.read()
+print(s)
+print(type(s))
+f.close()
